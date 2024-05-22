@@ -1,0 +1,11 @@
+C:\Users\annin\source\repos\EstudoTeste\bin\Debug\EstudoTeste.exe.config
+C:\Users\annin\source\repos\EstudoTeste\bin\Debug\EstudoTeste.exe
+C:\Users\annin\source\repos\EstudoTeste\bin\Debug\EstudoTeste.pdb
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.csproj.AssemblyReference.cache
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.FormHome.resources
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.Form2.resources
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.Properties.Resources.resources
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.csproj.GenerateResource.cache
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.csproj.CoreCompileInputs.cache
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.exe
+C:\Users\annin\source\repos\EstudoTeste\obj\Debug\EstudoTeste.pdb
