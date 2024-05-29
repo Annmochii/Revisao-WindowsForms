@@ -8,51 +8,51 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EstudoTeste
+namespace Revisao_Forms
 {
     public partial class FormHome : Form
     {
-        public List<Contato> listaContatos;
-        public Contato selecionado;
+        public List<Usuario> ListaUsuarios;
+        public Usuario Selecionado;
 
         public FormHome()
         {
             InitializeComponent();
-            listaContatos = new List<Contato>();
+            ListaUsuarios = new List<Usuario>();
+            dgvUsuarios.DataSource = ListaUsuarios;
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            Login login = new Login(this);
+            login.Show();
         }
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            try
-            {
-                Form2 form2 = new Form2(this);
-                form2.Show();
-            }
-            catch (CampoVazioException ex)
-            {
-                Console.WriteLine("ID do Contato: " + ex.ContatoId);
-            }
+            AdicionarUsuario adicionar = new AdicionarUsuario(this, null);
+            adicionar.Show();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            AdicionarUsuario adicionar = new AdicionarUsuario(this, Selecionado);
+            adicionar.Show();
+        }
+
+        private void dgvUsuarios_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            int i = e.RowIndex;
+            Selecionado = ListaUsuarios[i];
         }
 
         private void btnRemover_Click(object sender, EventArgs e)
         {
-            if (selecionado == null)
-            {
-                MessageBox.Show("Não foi selecionado nenhum contato!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else 
-            {
-                listaContatos.Remove(selecionado);
-                dgvAgendaTelefonica.DataSource = null;
-                dgvAgendaTelefonica.DataSource = listaContatos;
-                dgvAgendaTelefonica.Refresh();
-            }
-        }
+            ListaUsuarios.Remove(Selecionado);
 
-        private void dgvAgendaTelefonica_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            int x = e.RowIndex;
-            selecionado = listaContatos[x];
+            dgvUsuarios.DataSource = null;
+            dgvUsuarios.DataSource = ListaUsuarios;
+            dgvUsuarios.Refresh();
         }
     }
 }

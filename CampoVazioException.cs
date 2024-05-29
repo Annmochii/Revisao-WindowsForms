@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EstudoTeste
+namespace Revisao_Forms
 {
-    class CampoVazioException : Exception
+    public class CampoVazioException : Exception
     {
-        public int ContatoId { get; set; }
-        public CampoVazioException(int id, String mensagem) : base(mensagem)
+        int UsuarioID { get; set; }
+        public CampoVazioException(int usuarioID, String mensagem) : base(mensagem)
         {
-            this.ContatoId = id;
+            this.UsuarioID = usuarioID;
         }
     }
 }

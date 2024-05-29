@@ -1,0 +1,12 @@
+C:\Users\annin\source\repos\Revisao_Forms\bin\Debug\Revisao_Forms.exe.config
+C:\Users\annin\source\repos\Revisao_Forms\bin\Debug\Revisao_Forms.exe
+C:\Users\annin\source\repos\Revisao_Forms\bin\Debug\Revisao_Forms.pdb
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.csproj.AssemblyReference.cache
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.AdicionarUsuario.resources
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.FormHome.resources
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.Login.resources
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.Properties.Resources.resources
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.csproj.GenerateResource.cache
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.csproj.CoreCompileInputs.cache
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.exe
+C:\Users\annin\source\repos\Revisao_Forms\obj\Debug\Revisao_Forms.pdb
